@@ -1,0 +1,6 @@
+{
+  "name": "Kyelang Times : The Dragon Heritage Homestay",
+  "description": "Dragon-themed homestay at 3,000m in Keylong Village with glacier views, dragon painted boutique rooms with heated mattresses, 8-bed hostel dorm with electric blankets, and cozy vibes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

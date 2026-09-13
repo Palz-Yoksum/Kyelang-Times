@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-tibetan {
+  font-family: 'Cinzel', serif;
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom subtle prayer flag wave keyframe */
+@keyframes flagWave {
+  0%, 100% {
+    transform: rotate(0deg) skewY(0deg);
+  }
+  50% {
+    transform: rotate(2deg) skewY(1deg);
+  }
+}
+
+.animate-flag-wave {
+  animation: flagWave 4s ease-in-out infinite;
+}
+
+/* Custom scrollbar in Tibetan maroon */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede8;
+}
+::-webkit-scrollbar-thumb {
+  background: #731627;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #560f1c;
+}
